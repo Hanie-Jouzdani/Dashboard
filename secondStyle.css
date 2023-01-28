@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap");
+
+:root {
+  --primary-light: #f7f9fb;
+  --primary-blue: #e3f5ff;
+  --primary-purple: #e5ecf6;
+  --secondary-purple-A: #95a4fc;
+  --secondary-purple-B: #c6c7f8;
+  --secondary-blue-A: #a8c5da;
+  --secondary-blue-B: #b1e3ff;
+  --secondary-green-A: #a1e3cb;
+  --secondary-green-B: #baedbd;
+  --secondary-yellow: #ffe999;
+  --secondary-red: #ff4747;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Inter";
+}
+body {
+  display: grid;
+  grid-template-columns: 230px 1000px 280px;
+}
+main div.container {
+  max-width: 948px;
+  margin: 0 auto;
+}
+.wrapper {
+  max-width: 429px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: 28px;
+}
+.wrapper .status-item {
+  margin-bottom: 28px;
+}
+.eCommerce {
+  margin-top: 32px;
+}
+.eCommerce > p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  margin-left: 36px;
+  margin-bottom: 12px;
+}
+.projections-vs-actuals {
+  height: 252px;
+  width: 432px;
+  border-radius: 16px;
+  background-color: var(--primary-light);
+  margin-right: 28px;
+}
+.sec-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.revenue,
+.orders {
+  background-color: var(--primary-light);
+}
+.growth {
+  background-color: var(--primary-purple);
+}
+.middle-sec {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2px;
+}
+.Revenue-chart {
+  height: 320px;
+  width: 662px;
+  border-radius: 16px;
+  background-color: var(--primary-light);
+  margin-left: 28px;
+}
+.revenue-by-location {
+  height: 320px;
+  width: 202px;
+  border-radius: 16px;
+  background-color: var(--primary-light);
+  margin-right: 28px;
+}
+.last-sec {
+  display: flex;
+  justify-content: space-between;
+  margin: 29px 0;
+}
+.top-selling-products {
+  height: 312px;
+  width: 662px;
+  border-radius: 16px;
+  background-color: var(--primary-light);
+  margin-left: 28px;
+}
+.total-sales {
+  height: 312px;
+  width: 202px;
+  border-radius: 16px;
+  background-color: var(--primary-light);
+  margin-right: 28px;
+}

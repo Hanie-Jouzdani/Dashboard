@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="secondStyle.css" />
+    <title>Dashboard</title>
+  </head>
+  <body>
+    <aside class="left-bar">
+      <div class="avatar">
+        <div>
+          <img id="avatar" src="./img/Avatar.png" alt="avatar" />
+          <p>Byewind</p>
+        </div>
+        <div>
+          <img src="./icon/Vector1.svg" alt="" />
+        </div>
+      </div>
+      <!-- ned avatar -->
+      <nav>
+        <div class="fav-rec">
+          <div>
+            <a href="#" id="favorite">Favorites</a>
+            <a href="#" id="recently">Recently</a>
+          </div>
+          <ul>
+            <li><a href="#">Overview</a></li>
+            <li><a href="#">Projects</a></li>
+          </ul>
+        </div>
+
+        <div class="dashboard">
+          <p>Dashboards</p>
+          <ul>
+            <li>
+              <img src="./icon/ChartPieSlice.svg" alt="" /><a href="#"
+                >Default</a
+              >
+            </li>
+            <li>
+              <img src="./icon/ShoppingBagOpen.svg" alt="" />
+              <a href="#">eCommerce</a>
+            </li>
+            <li>
+              <img src="./icon/FolderNotch.svg" alt="" />
+              <a href="#">Projects</a>
+            </li>
+            <li>
+              <img src="./icon/BookOpen.svg" alt="" /><a href="#"
+                >Online Courses</a
+              >
+            </li>
+          </ul>
+        </div>
+        <!-- end dashboard -->
+
+        <div class="pages">
+          <p>pages</p>
+          <ul>
+            <li class="page-item">
+              <img src="./icon/IdentificationBadge.svg" alt="" /><a href="#"
+                >User Profile</a
+              >
+            </li>
+            <div class="more displayMore">
+              <ul class="more-items">
+                <li class="item">Overview</li>
+                <li class="item active">Projects</li>
+                <li class="item">Campaigns</li>
+                <li class="item">Documents</li>
+                <li class="item">Followers</li>
+              </ul>
+            </div>
+
+            <li class="page-item">
+              <img src="./icon/IdentificationCard.svg" alt="" />
+              <a href="#">Account</a>
+            </li>
+            <li class="page-item">
+              <img src="./icon/UsersThree.svg" alt="" />
+              <a href="#">Corporate</a>
+            </li>
+            <li class="page-item">
+              <img src="./icon/Notebook.svg" alt="" /><a href="#">Blog</a>
+            </li>
+            <li class="page-item">
+              <img src="./icon/Chats.svg" alt="" /><a href="#">Social</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </aside>
+    <!-- end aside -->
+    <main>
+      <header>
+        <div class="left-sec">
+          <div>
+            <a href="#">
+              <img src="./icon/Button3.svg" alt="" />
+            </a>
+          </div>
+          <div>
+            <a href="#"><img src="./icon/star.svg" alt="" /></a>
+          </div>
+          <div class="dashboard">Dashboard</div>
+          <div><img src="./icon/slash.svg" alt="" /></div>
+          <div class="default">Default</div>
+        </div>
+        <div class="right-sec">
+          <button class="search-btn">
+            <img src="./icon/magnifier.svg" alt="" />
+          </button>
+          <input type="text" placeholder="Search" />
+
+          <div>
+            <a href="#"><img src="./icon/sun.svg" alt="" /></a>
+          </div>
+          <div>
+            <a href="#"><img src="./icon/clock.svg" alt="" /></a>
+          </div>
+          <div>
+            <a href="#"><img src="./icon/bell.svg" alt="" /></a>
+          </div>
+          <div>
+            <a href="#"><img src="./icon/Button3.svg" alt="" /></a>
+          </div>
+        </div>
+      </header>
+      <!-- end header -->
+      <div class="container">
+        <section class="eCommerce">
+          <p>eCommerce</p>
+          <div class="sec-wrapper">
+            <div class="wrapper">
+              <div class="status-item">
+                <p>Customers</p>
+                <div class="amount">
+                  <p>37,812</p>
+                  <div class="percentage">
+                    <p>+5.27%</p>
+                    <img src="./icon/rising.svg" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div class="status-item orders">
+                <p>Orders</p>
+                <div class="amount">
+                  <p>3,219</p>
+                  <div class="percentage">
+                    <p>+5.27%</p>
+                    <img src="./icon/rising.svg" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div class="status-item revenue">
+                <p>Revenue</p>
+                <div class="amount">
+                  <p>$6,951</p>
+                  <div class="percentage">
+                    <p>-0.56%</p>
+                    <img src="./icon/falling.svg" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div class="status-item growth">
+                <p>Growth</p>
+                <div class="amount">
+                  <p>30.1%</p>
+                  <div class="percentage">
+                    <p>+1.48%</p>
+                    <img src="./icon/rising.svg" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="projections-vs-actuals"></div>
+          </div>
+        </section>
+        <section class="middle-sec">
+          <div class="Revenue-chart"></div>
+          <div class="revenue-by-location"></div>
+        </section>
+        <section class="last-sec">
+          <div class="top-selling-products"></div>
+          <div class="total-sales"></div>
+        </section>
+      </div>
+    </main>
+    <!-- end main -->
+
+    <aside class="right-side">
+      <section class="notifications">
+        <p>Notifications</p>
+        <div class="notififcation-item">
+          <img src="./icon/bug.svg" alt="" />
+          <div>
+            <p class="notification-text">
+              You have a bug that needs to be fixed.
+            </p>
+            <p class="notification-time">5m ago</p>
+          </div>
+        </div>
+        <div class="notififcation-item">
+          <img src="./icon/user.svg" class="dark" alt="" />
+          <div>
+            <p class="notification-text">New user registered</p>
+            <p class="notification-time">1:23 AM</p>
+          </div>
+        </div>
+        <div class="notififcation-item">
+          <img src="./icon/bug.svg" alt="" />
+          <div>
+            <p class="notification-text">
+              You have a bug that needs to be fixed.
+            </p>
+            <p class="notification-time">0:32 AM</p>
+          </div>
+        </div>
+        <div class="notififcation-item">
+          <img src="./icon/sound.svg" class="dark" alt="" />
+          <div>
+            <p class="notification-text">Andi Lane subscribed to you</p>
+            <p class="notification-time">Yesterday 12:39 AM</p>
+          </div>
+        </div>
+      </section>
+      <section class="activities">
+        <p>Activities</p>
+        <div class="activities-item">
+          <img src="./img/Avatar1.svg" alt="" />
+          <div>
+            <p class="activities-text">Edited the details of Project X</p>
+            <p class="activities-time">5m ago</p>
+          </div>
+        </div>
+        <div class="activities-item">
+          <img src="./img/Avatar2.svg" alt="" />
+          <div>
+            <p class="activities-text">Changed the status of Project X</p>
+            <p class="activities-time">1:32 AM</p>
+          </div>
+        </div>
+        <div class="activities-item">
+          <img src="./img/Avatar3.svg" alt="" />
+          <div>
+            <p class="activities-text">Submitted a bug</p>
+            <p class="activities-time">Yesterday 12:39 AM</p>
+          </div>
+        </div>
+
+        <div class="activities-item">
+          <img src="./img/Avatar5.svg" alt="" />
+          <div>
+            <p class="activities-text">Modified A data in Page X</p>
+            <p class="activities-time">Last Thursday 3:34 AM</p>
+          </div>
+        </div>
+        <div class="activities-item">
+          <img src="./img/Avatar4.svg" alt="" />
+          <div>
+            <p class="activities-text">Deleted a page in Project X</p>
+            <p class="activities-time">Aug 11</p>
+          </div>
+        </div>
+      </section>
+      <section class="contacts">
+        <p>Contacts</p>
+        <div class="contact-item">
+          <img src="./img/Avatar6.svg" alt="" />
+          <p class="contact-name">Natali Craig</p>
+        </div>
+        <div class="contact-item">
+          <img src="./img/Avatar3.svg" alt="" />
+          <p class="contact-name">Drew Cano</p>
+        </div>
+        <div class="contact-item">
+          <img src="./img/Avatar7.svg" alt="" />
+          <p class="contact-name">Orlando Diggs</p>
+        </div>
+        <div class="contact-item">
+          <img src="./img/Avatar8.svg" alt="" />
+          <p class="contact-name">Andi Lane</p>
+        </div>
+        <div class="contact-item">
+          <img src="./img/Avatar5.svg" alt="" />
+          <p class="contact-name">Kate Morrison</p>
+        </div>
+        <div class="contact-item">
+          <img src="./img/Avatar9.svg" alt="" />
+          <p class="contact-name">Koray Okumus</p>
+        </div>
+      </section>
+    </aside>
+    <!-- script -->
+    <script src="./script.js"></script>
+  </body>
+</html>
